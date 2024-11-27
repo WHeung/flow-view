@@ -1,0 +1,20 @@
+.wrapper {
+  width: 100%;
+  .wrap {
+    width: 100%;
+  }
+  .dragging {
+    cursor: move;
+  }
+  .scaling {
+    position: relative;
+  }
+}
+
+.controls {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 100px;
+  z-index: 15;
+}

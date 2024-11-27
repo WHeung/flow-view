@@ -1,0 +1,33 @@
+import {
+  CaretRightOutlined,
+  CheckOutlined,
+  CloseOutlined,
+  DoubleRightOutlined,
+  FieldTimeOutlined,
+  LoadingOutlined,
+  QuestionCircleOutlined,
+  MinusOutlined,
+  ExclamationCircleOutlined,
+} from '@ant-design/icons';
+
+export const StatusMap = {
+  created: { name: 'New', color: '#3577db', icon: <FieldTimeOutlined /> },
+  success: { name: 'Success', color: '#09d174', icon: <CheckOutlined /> },
+  failed: { name: 'Failed', color: '#ff4747', icon: <CloseOutlined /> },
+  aborted: { name: 'Aborted', color: '#b5b8bd', icon: <CloseOutlined /> },
+  failure: { name: 'Failure', color: '#ff4747', icon: <CloseOutlined /> },
+  canceled: { name: 'Canceled', color: '#b5b8bd', icon: <MinusOutlined /> },
+  notbuilt: { name: 'NotBuilt', color: '#b5b8bd', icon: <MinusOutlined /> },
+  not_built: { name: 'NotBuilt', color: '#b5b8bd', icon: <MinusOutlined /> },
+  pending: { name: 'Pending', color: '#b5b8bd', icon: <FieldTimeOutlined /> },
+  queued: { name: 'Queued', color: '#b5b8bd', icon: <FieldTimeOutlined /> },
+  paused: { name: 'Paused', color: '#3577db', icon: <CaretRightOutlined /> },
+  manual: { name: 'Manual', color: '#3577db', icon: <CaretRightOutlined /> },
+  progress: { name: 'Progress', color: '#3577db', icon: <LoadingOutlined /> },
+  running: { name: 'Running', color: '#3577db', icon: <LoadingOutlined /> },
+  unknown: { name: 'Unknown', color: '#b5b8bd', icon: <QuestionCircleOutlined /> },
+  skipped: { name: 'Skipped', color: '#b5b8bd', icon: <DoubleRightOutlined /> },
+  unstable: { name: 'Unstable', color: '#F59A23', icon: <ExclamationCircleOutlined /> },
+  start: { name: 'Start', color: '#3577db', icon: <LoadingOutlined /> },
+  default: { name: 'Default', color: '#b5b8bd', icon: <CloseOutlined /> },
+};
